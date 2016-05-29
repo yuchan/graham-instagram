@@ -15,7 +15,7 @@ module Graham
     end
     
     def signin_uri
-      config.signin_uri
+      @config.signin_uri
     end
   end
 
