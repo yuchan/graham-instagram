@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'graham/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "graham"
+  spec.name          = "graham-instagram"
   spec.version       = Graham::VERSION
   spec.authors       = ["Yusuke Ohashi"]
   spec.email         = ["github@junkpiano.me"]
