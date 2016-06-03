@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Graham::VERSION
   spec.authors       = ["Yusuke Ohashi"]
   spec.email         = ["github@junkpiano.me"]
-  spec.license       = ['MIT']
+  spec.licenses      = ['MIT']
   spec.summary       = %q{Instagram Client for Ruby.}
   spec.description   = %q{Instagram Client for Ruby.}
   spec.homepage      = "https://github.com/yuchan/graham-instagram"
