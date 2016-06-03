@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Graham::VERSION
   spec.authors       = ["Yusuke Ohashi"]
   spec.email         = ["github@junkpiano.me"]
-
+  spec.license       = ['MIT']
   spec.summary       = %q{Instagram Client for Ruby.}
   spec.description   = %q{Instagram Client for Ruby.}
-  spec.homepage      = "https://github.com/yuchan/graham"
+  spec.homepage      = "https://github.com/yuchan/graham-instagram"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
