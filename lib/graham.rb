@@ -17,6 +17,10 @@ module Graham
     def signin_uri
       @config.signin_uri
     end
+    
+    def authorization_uri
+      @config.authorization_uri
+    end
   end
 
   extend API

@@ -22,4 +22,9 @@ describe Graham do
       expect(token).to be nil
     end
   end
+
+  it 'authorization_uri' do
+    puts Graham.authorization_uri
+    expect(Graham.authorization_uri).not_to be nil
+  end
 end
