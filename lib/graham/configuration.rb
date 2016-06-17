@@ -11,6 +11,10 @@ module Graham
     
     def signin_uri
       "https://api.instagram.com/oauth/authorize/?client_id=" + @client_id + "&redirect_uri=" + @redirect_uri + "&response_type=code" + "&scope=" + "basic+public_content+comments+relationships+likes+follower_list"
-    end  
+    end
+    
+    def authorization_uri
+      "https://api.instagram.com/oauth/authorize/?client_id=" + @client_id + "&redirect_uri=" + @redirect_uri + "&response_type=token"
+    end
   end
 end
